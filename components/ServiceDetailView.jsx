@@ -1,10 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import Icon from '../../components/Icon.jsx';
-import ServiceCard from '../../components/ServiceCard.jsx';
-import CTA from '../../components/CTA.jsx';
-import useReveal from '../../hooks/useReveal.js';
+import Icon from './Icon.jsx';
+import ServiceCard from './ServiceCard.jsx';
+import CTA from './CTA.jsx';
+import useReveal from '../hooks/useReveal.js';
 
 export default function ServiceDetailView({ service, related }) {
   useReveal([service]);

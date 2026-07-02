@@ -2,10 +2,10 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import ContactForm from '../../components/ContactForm.jsx';
-import Icon from '../../components/Icon.jsx';
-import useReveal from '../../hooks/useReveal.js';
-import { photos } from '../../lib/photos.js';
+import ContactForm from './ContactForm.jsx';
+import Icon from './Icon.jsx';
+import useReveal from '../hooks/useReveal.js';
+import { photos } from '../lib/photos.js';
 
 const INFO = [
   {

@@ -3,11 +3,11 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import ServiceCard from '../../components/ServiceCard.jsx';
-import Process from '../../components/Process.jsx';
-import CTA from '../../components/CTA.jsx';
-import useReveal from '../../hooks/useReveal.js';
-import { photos } from '../../lib/photos.js';
+import ServiceCard from './ServiceCard.jsx';
+import Process from './Process.jsx';
+import CTA from './CTA.jsx';
+import useReveal from '../hooks/useReveal.js';
+import { photos } from '../lib/photos.js';
 
 const CATEGORIES = ['All', 'Estimating', 'General Contractor', 'Sub-Contractor', 'Design'];
 

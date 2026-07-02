@@ -2,12 +2,12 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import Icon from '../../components/Icon.jsx';
-import Stats from '../../components/Stats.jsx';
-import Trades from '../../components/Trades.jsx';
-import CTA from '../../components/CTA.jsx';
-import useReveal from '../../hooks/useReveal.js';
-import { photos } from '../../lib/photos.js';
+import Icon from './Icon.jsx';
+import Stats from './Stats.jsx';
+import Trades from './Trades.jsx';
+import CTA from './CTA.jsx';
+import useReveal from '../hooks/useReveal.js';
+import { photos } from '../lib/photos.js';
 
 const VALUES = [
   {
